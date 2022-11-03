@@ -41,10 +41,29 @@
 # finally:
 #     print("Я всё")
 
+# Антон
+# try:
+#      a = input("Имя:")
+#      if a == "Антон":
+#          raise Exception ("Антона в обиду не дам!")
+# except Exception as q:
+#      print("Это слово запрещено!",q)
 
-try:
-     a = input("Имя:")
-     if a == "Антон":
-         raise Exception ("Антона в обиду не дам!")
-except Exception as q:
-     print("Это слово запрещено!",q)
+# Текст.txt
+# a = []
+# try:
+#     f = open("Текст.txt")
+# except FileNotFoundError:
+#     print("Не получилось, не фортануло!")
+# else:
+#     try:
+#        for line in f:
+#            print (line)
+#            a.append(int(line))
+#     except ValueError as q:
+#         print("Ушёл за хлебом :)")
+#     else:
+#         print(a)
+#     finally:
+#         f.close()
+#         print("Я всё!")
