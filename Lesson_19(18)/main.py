@@ -39,50 +39,57 @@ import easygui
 # )
 
 
-import easygui
-import random
+# import easygui
+# import random
+#
+#
+#
+# def rock_paper_scissors(otvet=None):
+#     znachenie = {1:"Img/камень.png",
+#             2:"Img/ножницы.png",
+#             3:"Img/бумага.png"
+#             }
+#     result = easygui.buttonbox(
+#         msg= "Выбирай",
+#         title=  "Игра",
+#         images= ["Img/камень.png","Img/ножницы.png","Img/бумага.png"],
+#         choices= []
+#     )
+#     print(znachenie.keys())
+#     #comp = random.choice(list(znachenie.keys()))
+#     comp = "ножницы"
+#     print(comp)
+#     if result == znachenie["камень"] and comp == "ножницы":
+#         easygui.msgbox(msg= "Хорош")
+#
+#
+#
+# def guess_the_number():
+#     easygui.msgbox('Здесь будет игра "Угадай число"')
+#
+#
+# games = [
+#     'Камень, ножницы, бумага',
+#     'Угадай число'
+# ]
+#
+# games_entry_points = [
+#     rock_paper_scissors,
+#     guess_the_number
+# ]
+#
+# while True:
+#     res = easygui.buttonbox('Выбери игру!', choices=games)
+#     if res is None:
+#         break
+#     games_entry_points[games.index(res)]()
 
 
 
-def rock_paper_scissors(otvet=None):
-    znachenie = {1:"Img/камень.png",
-            2:"Img/ножницы.png",
-            3:"Img/бумага.png"
-            }
-    result = easygui.buttonbox(
-        msg= "Выбирай",
-        title=  "Игра",
-        images= ["Img/камень.png","Img/ножницы.png","Img/бумага.png"],
-        choices= []
-    )
-    print(znachenie.keys())
-    #comp = random.choice(list(znachenie.keys()))
-    comp = "ножницы"
-    print(comp)
-    if result == znachenie["камень"] and comp == "ножницы":
-        easygui.msgbox(msg= "Хорош")
-
-
-
-def guess_the_number():
-    easygui.msgbox('Здесь будет игра "Угадай число"')
-
-
-games = [
-    'Камень, ножницы, бумага',
-    'Угадай число'
-]
-
-games_entry_points = [
-    rock_paper_scissors,
-    guess_the_number
-]
-
-while True:
-    res = easygui.buttonbox('Выбери игру!', choices=games)
-    if res is None:
-        break
-    games_entry_points[games.index(res)]()
+easygui.integerbox(
+    upperbound= 75,
+    lowerbound= 50
+)
 
 
 
