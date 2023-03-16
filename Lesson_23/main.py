@@ -67,20 +67,20 @@
 # for item in sorted_dnevnik:
 #     print(item)
 
-class Rectangle:
-    def __init__(self,d1,d2):
-        self.dot1 = d1
-        self.dot2 = d2
-    def ploshadi(self):
-        a = self.dot2.y - self.dot1.y
-        b = self.dot2.x - self.dot1.x
-        return a * b
-class Point:
-    def __init__(self,x,y):
-        self.x = x
-        self.y = y
-
-dot1 = Point(1,100)
-dot2 = Point(2,254)
-priamoug = Rectangle(dot1,dot2)
-print (priamoug.ploshadi())
+# class Rectangle:
+#     def __init__(self,d1,d2):
+#         self.dot1 = d1
+#         self.dot2 = d2
+#     def ploshadi(self):
+#         a = self.dot2.y - self.dot1.y
+#         b = self.dot2.x - self.dot1.x
+#         return a * b
+# class Point:
+#     def __init__(self,x,y):
+#         self.x = x
+#         self.y = y
+#
+# dot1 = Point(1,100)
+# dot2 = Point(2,254)
+# priamoug = Rectangle(dot1,dot2)
+# print (priamoug.ploshadi())
