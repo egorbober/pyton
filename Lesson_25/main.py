@@ -15,12 +15,12 @@ class Human:
     def __init__(self,name = defult_name,age = defult_age):
         self.name = name
         self.age = age
-        self.__money = 50
+        self.__money = 5000
         self.__house = None
     def info(self):
         return self.name,self.age,self.__money,self.__house
     def earn_money(self,__money):
-        return __money + 100
+        return __money + 1000
 
 
     def defult_info(self):
