@@ -31,7 +31,7 @@ urok = int(input("Длительность урока:(мин):"))
 peremena = int(input("Длительность перемены(мин):"))
 n = int(input("На сколько уроков нужно расписание:"))
 
-split_start = start.split(":")
+split_start = start.split(":14.0000001")
 hours = int(split_start[0])
 minutes = int(split_start[1])
 vremia = hours * 60 + minutes
