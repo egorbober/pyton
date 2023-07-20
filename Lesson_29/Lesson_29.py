@@ -65,13 +65,13 @@ root.geometry("400x500")
 
 
 
-# img = tk.PhotoImage(file= "амогус.png")
-# img = img.subsample(3,3)
-# img = img.zoom(2,2)
-# lab= tk.Label(root,
-#               image= img)
-#
-# lab.pack()
+img = tk.PhotoImage(file= "амогус.png")
+img = img.subsample(3,3)
+img = img.zoom(2,2)
+lab= tk.Label(root,
+              image= img)
+
+lab.pack()
 
 
 
